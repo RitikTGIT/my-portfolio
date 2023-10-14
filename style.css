@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(10, 10, 24);
+    color: white;
+    font-family:  'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(37, 37, 68);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(126, 126, 187);
+    font-size: 1.02rem;
+}
+
+.left{
+    font-size: 2rem;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.first > div{
+    width: 30%;
+    margin: 110px 0;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+
+.leftSection{
+    font-size: 2.5rem;
+}
+
+.leftSection .buttons{
+    padding: 30px;
+}
+
+.leftSection .btn{
+    padding: 7px 0;
+    background: rgb(24, 24, 145);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rightSection img{
+    width: 80%;
+}
+
+.purple{
+    color: rgb(118, 86, 148);
+}
+
+#element{
+    color: rgb(121, 121, 187);
+}
+
+main hr{
+    border: 0;
+    background: rgb(207, 207, 221);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.skill-set{
+    text-shadow: 5px 5px rgb(66, 66, 139);
+    font-size: 1.8rem;
+}
+
+footer{
+    background-color: rgb(23, 23, 44);
+    height: 200px
+}
+
+.firstFooter h3{
+    padding-top: 0px;
+    color: rgb(102, 102, 158);
+}
+
+.footer{
+    display: flex;
+    padding: 23px 118px;
+    justify-content: space-evenly;
+}
+
+.secondFooter{
+    padding: 50px 0;   
+}
+
+@media only screen and (max-width:600px){
+    
+}
+
